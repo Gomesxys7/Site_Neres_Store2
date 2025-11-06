@@ -1,0 +1,89 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Cor de fundo suave */
+    display: flex; /* Permite alinhar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da janela do navegador */
+    margin: 0;
+}
+
+/* Contêiner principal do formulário de login */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para o cartão */
+    width: 100%;
+    max-width: 400px;
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para o grupo de campos de entrada */
+.input-group {
+    text-align: left; /* Alinha o texto para a esquerda dentro do grupo */
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que a largura inclua o padding */
+}
+
+/* Estilos para o botão de login */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Cor azul para o botão */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição */
+    margin-top: 10px; /* Adiciona espaço acima do botão */
+}
+
+.login-btn:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilos para os links */
+.login-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o parágrafo "Não tem uma conta?" */
+.login-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
